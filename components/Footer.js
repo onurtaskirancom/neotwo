@@ -2,8 +2,6 @@ import React, { Component, Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
-  faInstagram,
-  faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCoffee, faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -38,16 +36,6 @@ const Footer = () => {
                 <div className='mx-1'>
                   <a href='https://twitter.com/onurtaskirancom' target='_blank'>
                     <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                  </a>
-                </div>
-                <div className='mx-1'>
-                  <a href='https://linkedin.com/in/taskiranonur/' target='_blank'>
-                    <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                  </a>
-                </div>
-                <div className='mx-1'>
-                  <a href='https://instagram.com/tonurco' target='_blank'>
-                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                   </a>
                 </div>
                 <div className='mx-1'>

@@ -28,7 +28,7 @@ const Blogs = ({
 }) => {
   const head = () => (
     <Head>
-      <title>Onur Taskiran Blog | {APP_NAME}</title>
+      <title>{APP_NAME}</title>
       <meta
         name='description'
         content='Personal Web Site - Programming blogs and tutorial on react node next asp.net c# php and web development'
