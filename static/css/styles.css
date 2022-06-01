@@ -410,7 +410,7 @@ blockquote {
 
  code[class*="language-"],
  pre[class*="language-"] {
-     color: rgb(218, 218, 218);
+     color: rgb(214, 214, 214);
      background: none;
      font-family: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
      text-align: left;

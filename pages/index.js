@@ -12,8 +12,6 @@ import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
-  faInstagram,
-  faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCoffee, faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -209,26 +207,6 @@ const Blogs = ({
                             target='_blank'
                           >
                             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                          </a>
-                        </div>
-                        <div className='mx-2'>
-                          <a
-                            href='https://www.linkedin.com/in/taskiranonur/'
-                            target='_blank'
-                          >
-                            <FontAwesomeIcon
-                              icon={faLinkedin}
-                            ></FontAwesomeIcon>
-                          </a>
-                        </div>
-                        <div className='mx-2'>
-                          <a
-                            href='https://instagram.com/tonurco'
-                            target='_blank'
-                          >
-                            <FontAwesomeIcon
-                              icon={faInstagram}
-                            ></FontAwesomeIcon>
                           </a>
                         </div>
                         <div className='mx-2'>

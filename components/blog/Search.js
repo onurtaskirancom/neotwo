@@ -46,7 +46,7 @@ const Search = () => {
           return (
             <div key={i}>
                 <Link href="/[slug]" as={`/${blog.slug}`}>
-                <a className='neo-search '>{blog.title}</a>
+                <a className='neo-search'>{blog.title}</a>
               </Link>
             </div>
           );
@@ -61,7 +61,7 @@ const Search = () => {
     <form onSubmit={searchSubmit}>
       <div className='row mx-5 p-3 neo-search' style={{ marginTop: "-70px" }}>
         <div className='col-md-8 mx-auto'>
-          <h1>Welcome to My Personel Blog Web Site || onurtaskiran.net</h1>
+          <h1>Welcome to My Personal Blog Website <small className="text-danger"> onurtaskiran.net</small></h1>
         </div>
 
         <div className='col-md-3 pr-1 mx-auto'>

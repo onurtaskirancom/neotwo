@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='row'>
           <div className="col-md-4 pt-5">
             <p className='text-center pt-5 pb-5'>
-              © Copyright 2022 -  All Right Reserved.
+              © Copyright 2022 -  <a href="/" className="text-danger"> onurtaskiran.net</a>
             </p>
           </div>
           <div className="col-md-4 pt-5">
