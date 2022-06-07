@@ -61,7 +61,7 @@ const Search = () => {
     <form onSubmit={searchSubmit}>
       <div className='row mx-5 p-3 neo-search' style={{ marginTop: "-70px" }}>
         <div className='col-md-8 mx-auto'>
-          <h1>Welcome to My Personal Blog Website <small className="text-danger"> onurtaskiran.net</small></h1>
+          <h1>Welcome to My Personal Blog Website <small className="text-danger"> onurtaskiran.net</small>💀</h1>
         </div>
 
         <div className='col-md-3 pr-1 mx-auto'>

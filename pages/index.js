@@ -10,10 +10,7 @@ import LayoutRight from "../components/LayoutRight";
 import Search from "../components/blog/Search";
 import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faCoffee, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ScrollUpButton from "react-scroll-up-button";
 
@@ -34,15 +31,39 @@ const Blogs = ({
         content='Personal Web Site - Programming blogs and tutorial on react node next asp.net c# php and web development'
       />
       <link rel='canonical' href={`${DOMAIN}${router.pathname}`} />
-      <link rel="shortcut icon" href="/static/images/favico.png" type="image/x-icon" />
-      <link rel="android-chrome icon" href="/static/images/favico/android-chrome-192x192.png" type="image/x-icon"/>
-      <link rel="android-chrome icon" href="/static/images/favico/android-chrome-512x512.png" type="image/x-icon"/>
-      <link rel="apple-touch-icon" href="/static/images/favico/apple-touch-icon.png" type="image/x-icon"/>
-      <link rel="icon" href="/static/images/favico/favicon.ico" type="image/x-icon"/>
-      <link rel="icon" href="/static/favicon-16x16.png" type="image/x-icon" />
-      <link rel="icon" href="/static/images/favico/favicon-32x32.png" type="image/x-icon"/>
-      <link rel="shortcut icon" href="#" />
-      
+      <link
+        rel='shortcut icon'
+        href='/static/images/favico.png'
+        type='image/x-icon'
+      />
+      <link
+        rel='android-chrome icon'
+        href='/static/images/favico/android-chrome-192x192.png'
+        type='image/x-icon'
+      />
+      <link
+        rel='android-chrome icon'
+        href='/static/images/favico/android-chrome-512x512.png'
+        type='image/x-icon'
+      />
+      <link
+        rel='apple-touch-icon'
+        href='/static/images/favico/apple-touch-icon.png'
+        type='image/x-icon'
+      />
+      <link
+        rel='icon'
+        href='/static/images/favico/favicon.ico'
+        type='image/x-icon'
+      />
+      <link rel='icon' href='/static/favicon-16x16.png' type='image/x-icon' />
+      <link
+        rel='icon'
+        href='/static/images/favico/favicon-32x32.png'
+        type='image/x-icon'
+      />
+      <link rel='shortcut icon' href='#' />
+
       <meta
         property='og:title'
         content={`Latest web development tutorials | ${APP_NAME}`}
@@ -112,7 +133,7 @@ const Blogs = ({
   const showAllCategories = () => {
     return categories.map((c, i) => (
       // <Link href={`/categories/${c.slug}`} key={i}>
-      <Link href="/categories/[slug]" key={i} as={`/categories/${c.slug}`}>
+      <Link href='/categories/[slug]' key={i} as={`/categories/${c.slug}`}>
         <a className='button list-group-item neo bg-neo btn btn-secondary  mt-2  '>
           {c.name}
         </a>
@@ -123,8 +144,7 @@ const Blogs = ({
   const showAllTags = () => {
     return tags.map((t, i) => (
       // <Link href={`/tags/${t.slug}`} key={i}>
-      <Link href="/tags/[slug]" as={`/tags/${t.slug}`}  key={i}>
-       
+      <Link href='/tags/[slug]' as={`/tags/${t.slug}`} key={i}>
         <a className='btn btn-outline-secondary  mr-1 ml-1 mt-3'>{t.name}</a>
       </Link>
     ));
@@ -154,7 +174,10 @@ const Blogs = ({
               </section>
             </header>
           </div>
-          <div className='container-fluid nomobile' style={{ marginTop: "-95px" }}>
+          <div
+            className='container-fluid nomobile'
+            style={{ marginTop: "-95px" }}
+          >
             <div className='p-4 mx-5 nomobile'>
               <div className='row'>
                 <div className='col-md-8 '>
@@ -170,26 +193,26 @@ const Blogs = ({
                 {/* <LayoutRight /> */}
                 <div className='col-md-4  '>
                   <div className='neo px-3 pt-3 pb-5 mt-3'>
-                    <div className="col-md-8 mx-auto">
-                    <img
-                      className='d-flex profile-onur mx-auto d-block mt-3'
-                      src='static/images/onur-taskiran-about.jpg'
-                      alt='onurtaskiran'
-                    />
+                    <div className='col-md-8 mx-auto'>
+                      <img
+                        className='d-flex profile-onur mx-auto d-block mt-3'
+                        src='static/images/onur-taskiran-about.jpg'
+                        alt='onurtaskiran'
+                      />
                     </div>
-                   
+
                     <br />
                     <span className='mt-5'>
                       <b>Hi I'm Onur Taşkıran</b>
                     </span>
-                    <span style={{fontSize: 35}}>&#128075;&#127996;</span>
+                    <span style={{ fontSize: 35 }}>&#128075;&#127996;</span>
                     <p>
-                      I love Web Programming, Graphic Design
-                      and Sport. I'm working as a writer and Web Developer with
-                      experience of  for many years.
+                      I love to write code, design and do sports. I have been
+                      working as a Web Developer and Graphic Designer for many
+                      years.
                     </p>
                   </div>
-                  <div className='neo px-3 pt-3 pb-1 mt-3'> 
+                  <div className='neo px-3 pt-3 pb-1 mt-3'>
                     <div className='container-fluid'>
                       <h3>SOCIAL MEDIA</h3>
                       <div className='row social-media'>
@@ -230,19 +253,18 @@ const Blogs = ({
                       The blog site where the author scribbles according to his
                       mood.
                     </p>
-                    <div className="p-3">
-                    <img
-                      className='d-flex p-3 mx-auto'
-                      src='static/images/logo1.png'
-                      width='100%'
-                      height='100%'
-                      alt='onurtaskiran.com'
-                    />
+                    <div className='p-3'>
+                      <img
+                        className='d-flex p-3 mx-auto'
+                        src='static/images/logo1.png'
+                        width='100%'
+                        height='100%'
+                        alt='onurtaskiran.com'
+                      />
                     </div>
-            
                   </div>
                   <div className='neo px-3 pt-3 pb-1 mt-3'>
-                  <h3>BUY ME A COFFEE</h3>
+                    <h3>BUY ME A COFFEE</h3>
                     <div className='col-md-8 mx-auto pb-3'>
                       <a
                         href='https://www.buymeacoffee.com/onurtaskiran'

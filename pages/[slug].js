@@ -212,9 +212,9 @@ const SingleBlog = ({ blog, query }) => {
                     </span>
                     <span style={{ fontSize: 35 }}>&#128075;&#127996;</span>
                     <p>
-                      I love Web Programming, Graphic Design and Sport. I'm
-                      working as a writer and Web Developer with experience of 5
-                      years until now.
+                      I love to write code, design and do sports. I have been
+                      working as a Web Developer and Graphic Designer for many
+                      years.
                     </p>
                   </div>
                   <div className='neo px-3 pt-3 pb-1 mt-3'>
