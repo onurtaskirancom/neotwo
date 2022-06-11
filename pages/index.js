@@ -30,6 +30,7 @@ const Blogs = ({
         name='description'
         content='Personal Web Site - Programming blogs and tutorial on react node next asp.net c# php and web development'
       />
+      <meta name="keywords" content="Personal Blog, onur taskiran, onur taşkıran, react, javascript, kick boxer, author, software, Aspnet, onurtaskiran, Full stack web developer, vcard" />
       <link rel='canonical' href={`${DOMAIN}${router.pathname}`} />
       <link
         rel='shortcut icon'
