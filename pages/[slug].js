@@ -42,7 +42,6 @@ const SingleBlog = ({ blog, query }) => {
         {blog.title} | {APP_NAME}
       </title>
       <meta name='description' content={blog.mdesc} />
-      <meta name="keywords" content="Personal Blog, onur taskiran, onur taşkıran, react, javascript, kick boxer, author, software, Aspnet, onurtaskiran, Full stack web developer, vcard" />
       <link rel='canonical' href={`${DOMAIN}/${query.slug}`} />
       <link
         rel='shortcut icon'
